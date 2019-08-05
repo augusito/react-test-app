@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting started
+1.	Make sure you have [`git`](https://git-scm.com/), [`node`](https://nodejs.org/), and [`npm`](https://www.npmjs.com/get-npm) installed.
+2.	Clone this repository locally.
+4.  Change the current working directory to the cloned repository.
+3.	Run `npm install` to install dependencies.
+4.	Execute `npm start` from the root directory of the repository to start webserver.
+5.	Open [`http://localhost:3000`](http://calypso.localhost:3000/) in your browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +45,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Project Structure
+![image info](./public/images/project-structure.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Login Page
+![image info](./public/images/login-page.png)
 
-### Code Splitting
+#### Login Page Errors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![image info](./public/images/login-page-errors.png)
 
-### Analyzing the Bundle Size
+#### Login Page Input
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+![image info](./public/images/login-page-errors.png)
 
-### Making a Progressive Web App
+#### Tasks List
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![image info](./public/images/task-list.png)
 
-### Advanced Configuration
+#### Tasks Pagination
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+![image info](./public/images/task-pagination.png)
 
-### Deployment
+#### Logout Link
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![image info](./public/images/logout.png)
