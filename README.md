@@ -45,30 +45,55 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Project
+## Project Description
 
 ### Project Structure
+The project is structured, to a large extent, as recommended by [redux team](https://redux.js.org/faq/code-structure). Specifically, `Rails-style`: separate folders for “actions”, “constants”, “reducers”, “containers”, and “components”.
+
 ![image info](./public/images/project-structure.png)
 
 ### Login Page
+This is the output of Login.jsx component
+ 
 ![image info](./public/images/login-page.png)
 
 #### Login Page Errors
+Handling of REST API error responses from the backend server.
 
 ![image info](./public/images/login-page-errors.png)
 
 #### Login Page Input
 
-![image info](./public/images/login-page-errors.png)
+Upon supplying correct credentials, usr is successfully logged in and redirect to the tasks list page.
 
-#### Tasks List
+![image info](./public/images/login-page-input.png)
+
+#### Tasks List Page
+
+Tasks list page as  the output of Task.jsx. The data is retrieved from REST API back end using [axios](https://github.com/axios/axios)
 
 ![image info](./public/images/task-list.png)
 
 #### Tasks Pagination
 
+The pagination bar assist in scrolling through the data received from the back end. 
+
+I opted for input field `type: number` as opposed to select field because it is more suited for handling huge number of rows especially for small to medium screen devices.
+
+Also added logic for handling minimum (0) and maximum (open) number of pages where the buttons are disabled appropriately and the input number spinners are constrained accordingly. 
+
+The pagination from the back end starts from 0 (zero), that may needed improvement from that side.
+
 ![image info](./public/images/task-pagination.png)
 
 #### Logout Link
 
+Logout link.  Also, users not logged in are redirected to login page.
+
 ![image info](./public/images/logout.png)
+
+#### Not found page
+
+Users visiting a link that does not exist are directed  to this page.
+
+![image info](./public/images/not-found.png)
