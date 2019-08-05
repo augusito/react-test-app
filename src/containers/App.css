@@ -1,0 +1,148 @@
+body {
+    background-color: #F4F2F2;
+}
+
+/* Login */
+.login-container {
+    background: #12A1F3;
+    border: 1px solid #12A1F3;
+    border-radius: 5px;
+}
+
+.login-container .login-header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-container .login-header img {
+    max-width: 50%;
+}
+
+.login-container .login-header h1 {
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.login-container .login-body input {
+    border-left: none;
+}
+
+.login-container .login-body button, .login-container .login-body input {
+    height: 50px;
+}
+
+.login-container .login-body button {
+    width: 100%;
+    border: none;
+    min-height: 40px;
+    font-weight: bold;
+}
+
+.login-container .login-body .input-group-text {
+    border: none;
+}
+
+.login-container .login-body .input-group-text, .login-container .login-body button {
+    background-color: #FFC118;
+    color: #ffffff;
+}
+
+.login-container .login-body .invalid-feedback {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 2.5%;
+}
+
+/* Navbar */
+.navbar-brand img {
+    max-width: 40px;
+}
+
+div.nav-item.dropdown {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .5);
+}
+
+/* Buttons */
+.btn-sm {
+    font-size: 0.75em;
+}
+
+.btn-rounded {
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    border-radius: 30px;
+    transition: color 0.2s linear;
+}
+
+/* Table */
+.table {
+    font-size: 0.75em;
+}
+
+.table td, .table th {
+    padding: .425rem;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination .input-widget {
+    width: 75px;
+    margin: 0 4px;
+    text-align: center;
+}
+
+.page-size {
+    flex-grow: 0;
+}
+/* Cards */
+.card.search, .card.search .btn {
+    font-size: 0.8em;
+}
+
+.card-footer select {
+    width: 50px;
+    padding-left: 7px;
+    padding-right: 0;
+}
+
+.card-footer span {
+    line-height: 36px;
+    font-size: 0.75em;
+    color: #757575;
+}
+
+/* Backgrounds */
+.bg-primary {
+    background-color: #CCE5FF !important;
+    color: #004085;
+}
+
+.bg-success {
+    background-color: #D4EDDA !important;
+    color: #155724;
+}
+
+.bg-danger {
+    background-color: #F8D7DA !important;
+    color: #721c24;
+}
+
+.bg-warning {
+    color: #856404;
+    background-color: #fff3cd !important;
+}
+
+/* Other */
+.task-status > div > span {
+    font-size: 0.75em;
+    font-weight: bold;
+}
